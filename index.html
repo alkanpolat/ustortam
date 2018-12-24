@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" charset="UTF-8"  src="code.js"></script>
+</head>
+<body>
+<div id="main">
+	<table id="tablo" style="width:40%">
+	 
+	  <tr>
+		<th>Boş bırakılamaz: </th>
+		<td><input type="text" id="name"></td>
+		<td><div id="error1"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>E-mail: </th>
+		<td><input type="text" id="email"></td>
+		<td><div id="error2"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>Sadece sayısal: </th>
+		<td><input type="text" id="sayisal"></td>
+		<td><div id="error3"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>Sadece sayısal olan ve 12 basamak uzunluğundaki sayi: </th>
+		<td><input type="text" id="basamakli"></td>
+		<td><div id="error4"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>Sadece harf (a..z veya A..Z): </th>
+		<td><input type="text" id="alfa"></td>
+		<td><div id="error5"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>Sadece harf ve en fazla 30 uzunlukta olan string: </th>
+		<td><input type="text" id="max30"></td>
+		<td><div id="error6"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>3 kelimeden oluşan string: </th>
+		<td><input type="text" id="uckelime"></td>
+		<td><div id="error7"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<th>En az: 1 büyük harf,1 küçük harf, 1 rakam, 1 işareti, 8 uzunluk</th>
+		<td><input type="text" id="password"></td>
+		<td><div id="error8"></div></td>
+	  </tr>
+	  
+	  <tr>
+		<td id="bt"> <button id="button1" onclick="validateForm()">Kontrol Et</button></td>
+	  </tr>
+	  
+	</table>
+</div>
+</body>
+</html>

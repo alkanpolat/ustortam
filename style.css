@@ -1,0 +1,45 @@
+#main {
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	}
+#tablo {
+	text-align: left;
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 20px;
+	background-color:  rgba(200, 200, 200, 0.1);
+	}
+#tablo tr {
+	display: block;
+	border: 1px solid rgba(150, 150, 150, 0.1);
+	border-radius: 5px;
+	margin: 7px 0px;
+	padding: 3px 5px;
+	min-height: 35px;
+	background-color: rgba(150, 150, 150, 0.1);
+	width: 610px;
+	}
+#tablo tr th {
+	width: 440px;
+	font-size: 16px;
+	font-weight: normal;
+	}
+#tablo tr  td:nth-of-type(2) {
+	color: red;
+	position: absolute;
+	font-size: 14px;
+	transform: translate(432px, -4px);
+}
+#bt {
+	display: flex;
+	justify-content: center;
+	}
+#button1 {
+	font-size: 17px;
+	height: 35px;
+	width: 150px;
+	}
+#error0 {
+	visibility: hidden;
+}
